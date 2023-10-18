@@ -1,0 +1,12 @@
+description: >
+  Sample description
+# What will this job do?
+
+executor: default
+
+steps:
+    - echo-command:
+        to: "ME!"
+    - echo-command:
+        to: "YOU!"
+        

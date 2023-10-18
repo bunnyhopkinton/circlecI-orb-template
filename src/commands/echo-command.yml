@@ -1,0 +1,9 @@
+description: echoコマンド
+
+parameters:
+    to:
+        default: World
+        type: string
+
+steps:
+    - run: echo "Hello, << parameters.to >>"
